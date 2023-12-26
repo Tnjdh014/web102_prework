@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[https://imgur.com/wt0Funn](url)
+[https://i.imgur.com/wt0Funn.gifv](url)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with: LiceCap
