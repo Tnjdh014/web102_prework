@@ -23,10 +23,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<iframe class="imgur-embed" width="100%" height="965" frameborder="0" src="https://i.imgur.com/wt0Funn.gifv#embed"></iframe>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with: LiceCap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
