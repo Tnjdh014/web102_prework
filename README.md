@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] Added in a Modal that allows the devs to get a Coke! (this has been implemented to showcase what I have learned in WEB101)
 
 ## Video Walkthrough
 
