@@ -38,7 +38,7 @@ GIF created with: LiceCap
 
 - **Handling Errors**:  Debugging and dealing with errors, especially when the codebase grows, was a challenge for me. I had to look at the console to see what was causing the error, and then I had to look at the code Troubleshooting errors and understanding why they occur is a crucial part of the learning process. 
 
-- **Bonus content - Modal** Using a modal to display the game details was a bonus feature that I wanted to add. Especially since it was the last thing we learned in WEB101, i wanted to migrate that into this website to stand out from other implenetations of "Sea Monster Crowdfunding" websites. Maintaining a consistent UI/UX design throughout the project, especially when dealing with multiple components like modals and forms, can be challenging.
+- **Bonus content - Modal**: Using a modal to display the game details was a bonus feature that I wanted to add. Especially since it was the last thing we learned in WEB101, i wanted to migrate that into this website to stand out from other implenetations of "Sea Monster Crowdfunding" websites. Maintaining a consistent UI/UX design throughout the project, especially when dealing with multiple components like modals and forms, can be challenging.
 
 ## License
 
