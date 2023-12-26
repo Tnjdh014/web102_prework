@@ -4,7 +4,7 @@ Submitted by: **Tanjeed Hasan**
 
 Sea Monster Crowdfunding is a website that displays information about the games they have funded.
 
-Time spent: **12** hours spent in total
+Time spent: **18.5** hours spent in total
 
 ## Required Features
 
