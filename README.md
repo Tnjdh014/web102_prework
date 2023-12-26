@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<iframe class="imgur-embed" width="100%" height="965" frameborder="0" src="https://i.imgur.com/wt0Funn.gifv#embed"></iframe>
+[https://imgur.com/wt0Funn](url)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with: LiceCap
