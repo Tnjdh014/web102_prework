@@ -11,6 +11,35 @@
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <button id="buy-coke-btn">Buy a Coke</button>
+    </div>
+
+    <div id="coke-modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-text-container">
+                <form id="coke-form">
+                <h2>Thank you for your pledge to buy the devs a cold, tasty Coke!</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name-input" class="input-field" placeholder="Enter your name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email-input" class="input-field" placeholder="Enter your email">
+                    <button type="submit" id="submit-coke">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="thanks-modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-text-container">
+                <p id="thanks-modal-content">Thank you for your support!</p>
+                <img src="img/catcute.gif" alt='yay!'>
+                </div>
+                
+                
+                
+                <button id="close-modal-btn">Close Modal</button>     
+        </div>
     </div>
 
     <!-- background info about company -->

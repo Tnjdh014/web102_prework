@@ -179,64 +179,22 @@ secondGameContainer.appendChild(secondGameElement);
 /***********************************************************************************
  * Bonus stuff lol*/
 
-// Function to render games
-function renderGames(games) {
-    const gamesContainer = document.getElementById('games-container');
-    gamesContainer.innerHTML = ''; // Clear the container
+const buyCokeBtn = document.getElementById('buy-coke-btn');
+const cokeModal = document.getElementById('coke-modal');
+const thanksModal = document.getElementById('thanks-modal');
+const cokeForm = document.getElementById('coke-form');
+const closeThanksModalBtn = document.getElementById('close-modal-btn');
 
-    games.forEach(game => {
-        const gameCard = document.createElement('div');
-        // ... Create game card with game details and a heart icon/button
-        gameCard.innerHTML = `
-            <p>${game.name}</p>
-            <button class="favorite-btn">❤️</button> <!-- Heart icon/button for favoriting -->
-        `;
-        let lastClickTime = 0; // Initialize last click time for double-click
-
-        const favoriteBtn = gameCard.querySelector('.favorite-btn');
-        favoriteBtn.addEventListener('click', (event) => {
-            const currentTime = new Date().getTime();
-            if (currentTime - lastClickTime < 300) { // Check for double-click within 300 milliseconds
-                addToFavorites(game); // Function to add the game to favorites
-            }
-            lastClickTime = currentTime;
-        });
-
-        gamesContainer.appendChild(gameCard);
-    });
-}
-
-// Function to add a game to favorites
-function addToFavorites(game) {
-    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const existingIndex = favorites.findIndex(favGame => favGame.name === game.name);
-
-    if (existingIndex !== -1) {
-        // Remove if already favorited
-        favorites.splice(existingIndex, 1);
-    } else {
-        // Add to favorites
-        favorites.push(game);
-    }
-
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-}
-
-// Event listener for "Your Favorites" button
-const favoritesBtn = document.getElementById('fav-btn');
-favoritesBtn.addEventListener('click', () => {
-    const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    renderFavorites(favorites);
+buyCokeBtn.addEventListener('click', function() {
+    cokeModal.style.display = 'flex';
 });
 
+cokeForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    cokeModal.style.display = 'none';
+    thanksModal.style.display = 'flex';
+});
 
-function renderFavorites(favorites) {
-    const favoritesContainer = document.getElementById('favorites-container');
-    favoritesContainer.innerHTML = ''; // Clear the container
-
-    favorites.forEach(game => {
-        const favGameCard = document.createElement('div');
-        favGameCard.innerHTML = `<p>${game.name}</p>`;
-        favoritesContainer.appendChild(favGameCard);
-    });
-}
+closeThanksModalBtn.addEventListener('click', function() {
+    thanksModal.style.display = 'none';
+});
